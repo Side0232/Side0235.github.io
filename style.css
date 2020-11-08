@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.graficlogo{
+    padding:10px 0 5px 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    margin: auto;
+    width: 800px;
+    height: 50px;
+}
+.topnav{
+    background-color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.topnav a{
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    font-weight:bold
+}
+.topnav a:hover{
+    border-bottom: 3px solid #000;
+}
+.topnav .icon{
+    display: none;
+}
+.mw-100{
+    width: 100%;
+}
+.advantagers__container{
+    display: flex;
+    justify-content: center;
+}
+.advantagers{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantagers__item{
+    width: 30%;
+}
+.block1{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 160px;
+    display: flex;
+    justify-content:center;
+    text-align: left;
+}
+.block2{
+    
+    width: 50%;
+    height: 427px;
+    background-color: rgb(0, 0, 0);
+}
+.block3{
+    width: 50%;
+    height: 427px;
+    background-color: #000000;
+    
+}
+.icon_preview{
+    background: #000;
+    max-width: 100%;
+    padding: 100px 0 0 50px;
+    max-height: 400px;
+    box-sizing: border-box;
+} 
+.block2 h1{
+    font-size: 1.8vw;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.block2 h2{
+    color: #fff;
+    font-size: 1.8vw;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.block2 h4{
+    font-size: 1.8vw;
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+    font-style: 14px;
+    margin-left: 10px;
+}
+footer p{
+    color: white;
+}
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.photo_item{
+    width: 25%;
+}
+.photo_item img{
+    border-style: border-box;
+    max-width: 100%;
+    opacity: 0.7;
+}
+.photo_item img:hover{
+    opacity: 1;
+}
+main .zakaz {
+    text-align: center;
+}
+.zakaz{
+    font-size: 80px;
+    margin-bottom: 200px;
+    margin-top: 140px;
+}
+.advantagers__container2{
+    display: flex;
+    justify-content: center;
+}
+.advantagers2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantagers__item2{
+    width: 50%;
+}
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: black;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+    }
+    .advantagers__item{
+        width: 45%;
+    }
+    .photo_item{
+        width: 45%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .advantagers{
+        flex-direction: column;
+    }
+    .advantagers__item{
+        width: 100%;
+    }
+    .project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery{
+        width: auto;
+        margin: auto;
+    }
+    .photo_item{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .a3 img{
+        width: 100%;
+        margin: auto;
+    }
+}
